@@ -1,0 +1,23 @@
+h1 {
+    font-size: 40px;
+   
+}
+
+#username, #password {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 50%;
+    background-color: rgba(222, 230, 230, 0.719);
+    color: black;
+    margin: 20px;
+}
+
+#login {
+    display: flex;
+    border-radius: 15px;
+    width: 40vh;
+    color: rgb(245, 245, 245);
+    background-color: rgb(41, 79, 204);
+    margin: 20px;
+}

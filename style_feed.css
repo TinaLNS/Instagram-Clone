@@ -1,0 +1,21 @@
+
+
+body{
+    background-color: black;
+
+}
+#first_icons{
+display:flex;
+flex-direction: row;
+justify-content:flex-end;
+
+}
+
+
+#second_icons{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin:bottom;
+}
+
