@@ -1,23 +1,64 @@
-h1 {
-    font-size: 40px;
-   
+* {
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#username, #password {
+body {
+    background-color: #fafafa;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    margin: auto;
+    max-width: 935px;
+}
+
+header { 
+    margin: 20px 0;
     display: flex;
+    justify-content: center; 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: stretch;
-    width: 50%;
-    background-color: rgba(222, 230, 230, 0.719);
-    color: black;
-    margin: 20px;
 }
 
-#login {
-    display: flex;
-    border-radius: 15px;
-    width: 40vh;
-    color: rgb(245, 245, 245);
-    background-color: rgb(41, 79, 204);
-    margin: 20px;
+form { 
+    width: 100%; 
+    padding: 10px 20px;
+}
+
+.label {
+    display: none;
+}
+
+input {
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #808080;
+    margin-bottom: 8px;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+#submit{
+    background-color: #0095f6;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 10px;
+    width: 100%;
 }
