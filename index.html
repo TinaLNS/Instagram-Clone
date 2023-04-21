@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Multigram</title>
-  </head>
-  <body>
-      <header>    
-        <h1>Instagram</h1>
-        <img src="./logo.png" alt="Instagram image">
-      </header>
-      <main>
-        <section>
-          <input id="username" type="text" placeholder="Phone number, username or email">
-          <input id="password" type="password" placeholder="Password">
-          <button id="login">Log in</button>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Multigram</title>
+    </head>
+<body>
+    <main class="flex">
+        <section class="flex">
+                <header>
+                    <img src="./assets/instagram-logo.png" alt="Instagram logo" />
+                </header>
+                 <form action="./account.html"> <!-- change the account.html link to feed.html -->
+                    <label for="username" class="label">Phone number, username or email</label>
+                    <input type="text" id="username" placeholder="Phone number, username or email" />
+
+                    <label for="password" class="label">Password</label>
+                    <input type="password" idtype="password" placeholder="Password" />
+
+                    <input type="submit" id="submit" value="Log In" />
+                </form>
         </section>
-      </main>
-      <script src="script.js"></script>
-  </body>
+    </main>
+</body>
 </html>
