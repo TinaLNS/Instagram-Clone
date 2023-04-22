@@ -1,21 +1,73 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Montserrat&family=Norican&display=swap');
 
 body{
     background-color: black;
+}
+h1 {
+    color:white;
+    font-family: norican;
+    font-weight: lighter;
 
 }
-#first_icons{
+
+h4,h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.first_icons{
 display:flex;
-flex-direction: row;
-justify-content:flex-end;
+justify-content:flex-end ;
+flex-direction:row;
+
+
+}
+
+.first_icons a {
+font-size: 25px;
+color: white;
+margin: 5px;
+display: flex;
+
+
 
 }
 
 
-#second_icons{
-    display:flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    margin:bottom;
+.second_icons a {
+    justify-content:flex-start;
+    font-size: 25px;
+    color:white;
+    margin:15px;
+    display: inline;
+
+
+
 }
 
+
+.second_icons  :nth-of-type(4){
+    margin-left :60%;
+
+}
+#verify  {
+    margin-left: 30%;
+    margin-top:-36px;
+}
+
+
+h5 a{
+    color: grey;
+}
+
+#image {
+    width: 10vh;
+    margin-left: 30%;
+    margin-top:-36px;
+  }
+
+.second_image {
+    width: 10vh;    
+}

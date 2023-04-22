@@ -1,5 +1,3 @@
-
-
 header {
     display: flex;
     justify-content: space-between;
@@ -15,7 +13,7 @@ header section {
 .login-btn {
     background-color: #0095F6;
     border-radius: 4px;
-}
+
 
 h1 {
     font-size: x-large;
@@ -40,5 +38,15 @@ h1 {
 }
 
 .images {
-    width: 50%;
+    width: 30%;
 }
+
+.flex-container {
+    display: flex-wrap;
+    flex-direction: row;
+    
+  }
+
+  img {
+    width: 20vh;
+  }
