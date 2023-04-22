@@ -25,7 +25,7 @@ flex-direction:row;
 
 }
 
-.first_icons  a {
+.first_icons a {
 font-size: 25px;
 color: white;
 margin: 5px;
@@ -60,4 +60,14 @@ display: flex;
 
 h5 a{
     color: grey;
+}
+
+#image {
+    width: 10vh;
+    margin-left: 30%;
+    margin-top:-36px;
+  }
+
+.second_image {
+    width: 10vh;    
 }
