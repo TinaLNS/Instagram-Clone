@@ -1,3 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.login-btn {
+    background-color: #0095F6;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+.highlight-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.highlight-container svg {
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: grey;
+    min-width: 60px;
+}
+
+.navbar1, .navbar2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .images {
     width: 50%;
 }
