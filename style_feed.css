@@ -1,73 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Montserrat&family=Norican&display=swap');
 
-body{
+body {
     background-color: black;
-}
-h1 {
-    color:white;
-    font-family: norican;
-    font-weight: lighter;
-
-}
-
-h4,h5{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Norican;
+    font-weight: lighter; */
 }
 
-
-
-.first_icons{
-display:flex;
-justify-content:flex-end ;
-flex-direction:row;
-
-
+.top-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.first_icons a {
-font-size: 25px;
-color: white;
-margin: 5px;
-display: flex;
-
-
-
+.top-navbar-left {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
 }
 
-
-.second_icons a {
-    justify-content:flex-start;
-    font-size: 25px;
-    color:white;
-    margin:15px;
-    display: inline;
-
-
-
+.top-navbar-left img {
+    filter: invert();
+    width: 80%;
 }
 
-
-.second_icons  :nth-of-type(4){
-    margin-left :60%;
-
-}
-#verify  {
-    margin-left: 30%;
-    margin-top:-36px;
+.top-navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80px;
 }
 
-
-h5 a{
-    color: grey;
+.post-header {
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: space-between;
 }
 
-#image {
-    width: 10vh;
-    margin-left: 30%;
-    margin-top:-36px;
-  }
-
-.second_image {
-    width: 10vh;    
+.post-header-left {
+    display: flex;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+    align-items: center;
 }
+
+.post-header-left img {
+    border-radius: 50%;
+    border: 2px solid;
+    /* border-color: grey; */
+    width: 50px;
+    height: 50px;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    /* margin: 0 4px; */
+}
+
+.post-header-left p {
+    font-size: small;
+    /* border: 1px solid purple; */
+    margin-left: 7px;
+}
+
+.post-header-right {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.post-container .images {
+    width: 100%;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    max-width: 200px;
+}
+
+.post-footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.post-detail p {
+    margin: auto;
+}
+
